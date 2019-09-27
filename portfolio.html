@@ -4,66 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <link type="text/css" rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <div class="top">
-            <div class="name">
-                <a href="index.html"><h1>Marcus Dycus</h1></a>
+    <ul class="nav nav-pills nav-fill bg-dark">
+        <li class="nav-item">
+            <a class="navbar-brand text-light bg-info" style="width: 200px" href="index.html">
+                <b>Marcus Dycus</b>
+            </a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link text-info" href="index.html">About Me</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-info" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active bg-info" href="portfolio.html">Portfolio</a>
+        </li>
+    </ul>
+
+    <div class="container" style="margin-top: 20px">
+        <div class="jumbotron" style="padding-top: 20px">
+            <h3 class="display-5">Portfolio</h3>
+            <hr class="my-4">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <a href="#">
+                    <img src="assets/images/sports-q-c-400-289-1.jpg" alt="hangman" class="img-thumbnail" style="margin-bottom: 10px">
+                    <div class="text-light" style="position: absolute; top: 80%; left: 10%"><h2>Hangman</h2></div></a>
+                </div>
+                <div class="col-lg-6">
+                    <a href="#">
+                    <img src="assets/images/nature-q-c-400-289-10.jpg" alt="trivia game" class="img-thumbnail" style="margin-bottom: 10px">
+                    <div class="text-light" style="position: absolute; top: 80%; left: 10%"><h2>Trivia Game</h2></div></a>
+                </div>
             </div>
-            <nav class="links">
-                <a href="index.html">About Me</a>
-                <a href="contact.html">Contact</a>
-                <a href="portfolio.html">Portfolio</a>
-            </nav>
+            <div class="row">
+                <div class="col-lg-6">
+                    <a href="#">
+                    <img src="assets/images/sports-q-c-400-289-5.jpg" alt="rock paper scissors" class="img-thumbnail" style="margin-bottom: 10px">
+                    <div class="text-light" style="position: absolute; top: 80%; left: 10%"><h2>Rock Paper Scissors</h2></div></a>
+                </div>
+                <div class="col-lg-6">
+                    <a href="#">
+                    <img src="assets/images/nature-q-c-400-289-3.jpg" alt="rpg game" class="img-thumbnail" style="margin-bottom: 10px">
+                    <div class="text-light" style="position: absolute; top: 80%; left: 10%"><h2>RPG Game</h2></div></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <a href="#">
+                    <img src="assets/images/nightlife-q-c-400-289-4.jpg" alt="rutgers info widget" class="img-thumbnail" style="margin-bottom: 10px">
+                    <div class="text-light" style="position: absolute; top: 80%; left: 10%"><h2>Rutgers Info Widget</h2></div></a>
+                </div>
+            </div>
+
+
         </div>
-    </header>
-
-
-    <div class="content">
-        <h2>Portfolio</h2>
-
-        <div class="content2">
-            <div class="column">
-                <div class="row">
-                    <a href="#">
-                    <div class="gameName">Hangman</div>
-                    <img src="assets/images/sports-q-c-400-289-1.jpg" alt="hangman"></a>
-                </div>
-                <div class="row">
-                    <a href="#">
-                    <div class="gameName">Trivia Game</div>
-                    <img src="assets/images/nature-q-c-400-289-10.jpg" alt="trivia game"></a>
-                </div>
-            </div>
-            <div class="column">
-                <div class="row">
-                    <a href="#">
-                    <div class="gameName">Rock Paper Scissors</div>
-                    <img src="assets/images/sports-q-c-400-289-5.jpg" alt="rock paper scissors"></a>
-                </div>
-                <div class="row">
-                    <a href="#">
-                    <div class="gameName">RPG Game</div>
-                    <img src="assets/images/nature-q-c-400-289-3.jpg" alt="rpg game"></a>
-                </div>
-            </div>
-            <div class="column">
-                <div class="row">
-                    <a href="#">
-                    <div class="gameName">Rutgers Info Widget</div>
-                    <img src="assets/images/nightlife-q-c-400-289-4.jpg" alt="rutgers info widget"></a>
-                </div>
-            </div>
-        </div>
-
     </div>
-    <footer>
-        &copy; Copyright, Marcus Dycus 2019
+    <footer class="page-footer font-small bg-dark text-light" style="border-top: 2px solid gray">
+        <div class="footer-copyright text-center py-3">© 2019 Marcus Dycus
+        </div>
     </footer>
 
 </body>
